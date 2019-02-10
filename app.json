@@ -29,7 +29,7 @@
             "description": "Database driver"
         },
         "MM_SQLSETTINGS_DATASOURCE": {
-            "value": "dbname=d2ltfoeorinsne host=ec2-54-243-228-140.compute-1.amazonaws.com port=5432 user=ilydsfjvkjrehh password=73a5c8ed15c0720e9fe338258f9e1367f262eb3be5f3bff1b0edf5ce274d724b sslmode=require",
+            "value": "postgres://ilydsfjvkjrehh:73a5c8ed15c0720e9fe338258f9e1367f262eb3be5f3bff1b0edf5ce274d724b@ec2-54-243-228-140.compute-1.amazonaws.com:5432/d2ltfoeorinsne?user=ilydsfjvkjrehh&password=73a5c8ed15c0720e9fe338258f9e1367f262eb3be5f3bff1b0edf5ce274d724b",
             "description": "Mattermost and Heroku Postgres don't play nicely together. you will have to copy the DATABASE_URL variable into this one, and make sure you update it if it changes"
         },
         "MM_SERVICESETTINGS_LISTENADDRESS": {
