@@ -9,7 +9,7 @@
     "success_url": "/",
     "buildpacks": [
         {
-            "url": "https://github.com/cadecairos/nginx-buildpack.git#v2.0.0"
+            "url": "https://github.com/heroku/heroku-buildpack-nginx"
         },
         {
             "url": "http://github.com/mozilla/mattermost-heroku.git#v2.2.0"
@@ -17,7 +17,7 @@
     ],
     "env": {
         "MATTERMOST_VERSION": {
-            "value": "4.2.0",
+            "value": "5.7.1",
             "description": "Mattermost version to install, semver format"
         },
         "MATTERMOST_TYPE": {
