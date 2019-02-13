@@ -17,7 +17,7 @@
     ],
     "env": {
         "MATTERMOST_VERSION": {
-            "value": "5.7.1",
+            "value": "5.7.2",
             "description": "Mattermost version to install, semver format"
         },
         "MATTERMOST_TYPE": {
